@@ -1,0 +1,85 @@
+* NGSPICE file created from nauta_ota_dtrim2b.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_RMGWKL a_n190_n974# a_30_n800# a_n88_n800# a_n33_n888#
+X0 a_30_n800# a_n33_n888# a_n88_n800# a_n190_n974# sky130_fd_pr__nfet_01v8 ad=2.32 pd=16.58 as=2.32 ps=16.58 w=8 l=0.3
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_XP7VY6 a_n33_n1697# a_n88_n1600# w_n226_n1819# a_30_n1600#
+X0 a_30_n1600# a_n33_n1697# a_n88_n1600# w_n226_n1819# sky130_fd_pr__pfet_01v8 ad=4.64 pd=32.58 as=4.64 ps=32.58 w=16 l=0.3
+.ends
+
+.subckt ff_inv vdd in out gnd
+XXM1 gnd out gnd in sky130_fd_pr__nfet_01v8_RMGWKL
+XXM2 in vdd vdd out sky130_fd_pr__pfet_01v8_XP7VY6
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_SALWK2 a_n88_n400# a_n33_n488# a_n190_n574# a_30_n400#
+X0 a_30_n400# a_n33_n488# a_n88_n400# a_n190_n574# sky130_fd_pr__nfet_01v8 ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=0.3
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_SKDPWJ a_30_n800# a_n33_n897# w_n226_n1019# a_n88_n800#
+X0 a_30_n800# a_n33_n897# a_n88_n800# w_n226_n1019# sky130_fd_pr__pfet_01v8 ad=2.32 pd=16.58 as=2.32 ps=16.58 w=8 l=0.3
+.ends
+
+.subckt sc_inv vdd in out gnd
+XXM1 gnd in gnd out sky130_fd_pr__nfet_01v8_SALWK2
+XXM2 out in vdd vdd sky130_fd_pr__pfet_01v8_SKDPWJ
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_C4HEJZ a_n33_n468# a_n190_n554# a_30_n380# a_n88_n380#
+X0 a_30_n380# a_n33_n468# a_n88_n380# a_n190_n554# sky130_fd_pr__nfet_01v8 ad=1.102 pd=8.18 as=1.102 ps=8.18 w=3.8 l=0.3
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_E6W7WZ a_30_n760# a_n88_n760# a_n33_n857# w_n226_n979#
+X0 a_30_n760# a_n33_n857# a_n88_n760# w_n226_n979# sky130_fd_pr__pfet_01v8 ad=2.204 pd=15.78 as=2.204 ps=15.78 w=7.6 l=0.3
+.ends
+
+.subckt cc_inv_4 vdd in out gnd
+XXM1 in gnd out gnd sky130_fd_pr__nfet_01v8_C4HEJZ
+XXM2 out vdd in vdd sky130_fd_pr__pfet_01v8_E6W7WZ
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_SALLWN a_30_n50# a_n33_n138# a_n190_n224# a_n88_n50#
+X0 a_30_n50# a_n33_n138# a_n88_n50# a_n190_n224# sky130_fd_pr__nfet_01v8 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.3
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_6QYSWZ a_n88_n100# w_n226_n319# a_30_n100# a_n33_n197#
+X0 a_30_n100# a_n33_n197# a_n88_n100# w_n226_n319# sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.3
+.ends
+
+.subckt cc_inv_dt05 vdd out in sw_p sw_n gnd
+XXM1 out in gnd m1_1310_n1600# sky130_fd_pr__nfet_01v8_SALLWN
+XXM2 m1_1300_n650# vdd out in sky130_fd_pr__pfet_01v8_6QYSWZ
+XXM3 vdd vdd m1_1300_n650# sw_p sky130_fd_pr__pfet_01v8_6QYSWZ
+XXM4 m1_1310_n1600# sw_n gnd gnd sky130_fd_pr__nfet_01v8_SALLWN
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_AXGLWN a_n98_n50# a_n40_n138# a_n200_n224# a_40_n50#
+X0 a_40_n50# a_n40_n138# a_n98_n50# a_n200_n224# sky130_fd_pr__nfet_01v8 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.4
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_XPYS9A w_n236_n319# a_n40_n197# a_40_n100# a_n98_n100#
+X0 a_40_n100# a_n40_n197# a_n98_n100# w_n236_n319# sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.4
+.ends
+
+.subckt cc_inv_dt05_long vdd out in sw_p sw_n gnd
+XXM1 m1_1330_n1440# in gnd out sky130_fd_pr__nfet_01v8_AXGLWN
+XXM2 vdd in out m1_1320_n350# sky130_fd_pr__pfet_01v8_XPYS9A
+XXM3 vdd sw_p m1_1320_n350# vdd sky130_fd_pr__pfet_01v8_XPYS9A
+XXM4 gnd sw_n gnd m1_1330_n1440# sky130_fd_pr__nfet_01v8_AXGLWN
+.ends
+
+.subckt nauta_ota_dtrim2b vdd out_n in_p out_p in_n sw_p_A1 sw_p_B1 sw_p_A05 sw_p_B05
++ sw_n_A1 sw_n_B1 sw_n_A05 sw_n_B05 gnd
+Xx1 vdd in_p out_n gnd ff_inv
+Xx3 vdd out_n out_n gnd sc_inv
+Xx2 vdd in_n out_p gnd ff_inv
+Xx4 vdd out_p out_p gnd sc_inv
+Xx5 vdd out_n out_p gnd cc_inv_4
+Xx6 vdd out_p out_n gnd cc_inv_4
+Xx7 vdd out_p out_n sw_p_A1 sw_n_A1 gnd cc_inv_dt05
+Xx8 vdd out_n out_p sw_p_B1 sw_n_B1 gnd cc_inv_dt05
+Xx11 vdd out_p out_n sw_p_A05 sw_n_A05 gnd cc_inv_dt05_long
+Xx12 vdd out_n out_p sw_p_B05 sw_n_B05 gnd cc_inv_dt05_long
+.ends
+
