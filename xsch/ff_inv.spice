@@ -1,0 +1,12 @@
+** sch_path: /home/irfansyah/design/ttsky25a-irfansyah-nauta/xsch/ff_inv.sch
+.subckt ff_inv vdd in out gnd
+*.ipin in
+*.ipin vdd
+*.ipin gnd
+*.opin out
+XM1 out in gnd gnd sky130_fd_pr__nfet_01v8 L=0.3 W=8 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM2 out in vdd vdd sky130_fd_pr__pfet_01v8 L=0.3 W=16 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+.end

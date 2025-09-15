@@ -1,0 +1,15 @@
+* NGSPICE file created from cc_inv_4.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_C4HEJZ a_n33_n468# a_n190_n554# a_30_n380# a_n88_n380#
+X0 a_30_n380# a_n33_n468# a_n88_n380# a_n190_n554# sky130_fd_pr__nfet_01v8 ad=1.102 pd=8.18 as=1.102 ps=8.18 w=3.8 l=0.3
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_E6W7WZ a_30_n760# a_n88_n760# a_n33_n857# w_n226_n979#
+X0 a_30_n760# a_n33_n857# a_n88_n760# w_n226_n979# sky130_fd_pr__pfet_01v8 ad=2.204 pd=15.78 as=2.204 ps=15.78 w=7.6 l=0.3
+.ends
+
+.subckt cc_inv_4 vdd in out gnd
+XXM1 in gnd out gnd sky130_fd_pr__nfet_01v8_C4HEJZ
+XXM2 out vdd in vdd sky130_fd_pr__pfet_01v8_E6W7WZ
+.ends
+

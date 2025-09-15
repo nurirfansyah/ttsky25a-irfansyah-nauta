@@ -1,0 +1,29 @@
+** sch_path: /home/irfansyah/design/ttsky25a-irfansyah-nauta/xsch/nauta_ota_dtrim2b.sch
+.subckt nauta_ota_dtrim2b vdd out_n in_p out_p in_n sw_p_A1 sw_p_B1 sw_p_A05 sw_p_B05 sw_n_A1 sw_n_B1 sw_n_A05 sw_n_B05 gnd
+*.ipin vdd
+*.ipin gnd
+*.ipin in_n
+*.ipin in_p
+*.opin out_n
+*.opin out_p
+*.ipin sw_p_A05
+*.ipin sw_n_B1
+*.ipin sw_p_A1
+*.ipin sw_p_B1
+*.ipin sw_p_B05
+*.ipin sw_n_A1
+*.ipin sw_n_A05
+*.ipin sw_n_B05
+x1 vdd in_p out_n gnd ff_inv
+x2 vdd in_n out_p gnd ff_inv
+x3 vdd out_n out_n gnd sc_inv
+x4 vdd out_p out_p gnd sc_inv
+x5 vdd out_n out_p gnd cc_inv_4
+x6 vdd out_p out_n gnd cc_inv_4
+x7 vdd out_p out_n sw_p_A1 sw_n_A1 gnd cc_inv_dt05
+x8 vdd out_n out_p sw_p_B1 sw_n_B1 gnd cc_inv_dt05
+x11 vdd out_p out_n sw_p_A05 sw_n_A05 gnd cc_inv_dt05_long
+x12 vdd out_n out_p sw_p_B05 sw_n_B05 gnd cc_inv_dt05_long
+.ends
+
+.end

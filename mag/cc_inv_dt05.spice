@@ -1,0 +1,17 @@
+* NGSPICE file created from cc_inv_dt05.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_SALLWN a_30_n50# a_n33_n138# a_n190_n224# a_n88_n50#
+X0 a_30_n50# a_n33_n138# a_n88_n50# a_n190_n224# sky130_fd_pr__nfet_01v8 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.3
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_6QYSWZ a_n88_n100# w_n226_n319# a_30_n100# a_n33_n197#
+X0 a_30_n100# a_n33_n197# a_n88_n100# w_n226_n319# sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.3
+.ends
+
+.subckt cc_inv_dt05 vdd out in sw_p sw_n gnd
+XXM1 out in gnd m1_1310_n1600# sky130_fd_pr__nfet_01v8_SALLWN
+XXM2 m1_1300_n650# vdd out in sky130_fd_pr__pfet_01v8_6QYSWZ
+XXM3 vdd vdd m1_1300_n650# sw_p sky130_fd_pr__pfet_01v8_6QYSWZ
+XXM4 m1_1310_n1600# sw_n gnd gnd sky130_fd_pr__nfet_01v8_SALLWN
+.ends
+
