@@ -61,8 +61,8 @@ N 1280 -1260 1280 -1180 {lab=VGND}
 N 1330 -1480 1340 -1480 {lab=VPWR}
 N 1300 -1460 1340 -1460 {lab=ua[0]}
 N 1300 -1440 1340 -1440 {lab=ua[1]}
-N 1640 -1480 1680 -1480 {lab=ua[2]}
-N 1640 -1460 1680 -1460 {lab=ua[3]}
+N 1640 -1480 1680 -1480 {lab=ua[3]}
+N 1640 -1460 1680 -1460 {lab=ua[2]}
 N 750 -1510 770 -1510 {lab=ua[2]}
 N 750 -1490 770 -1490 {lab=ua[3]}
 N 1240 -1420 1340 -1420 {lab=ui_in[0]}
@@ -140,7 +140,7 @@ C {devices/ipin.sym} 770 -1390 0 0 {name=p11 lab=ui_in[0]}
 C {devices/opin.sym} 940 -1450 0 0 {name=p35 lab=uo_out[0]}
 C {devices/ipin.sym} 770 -1550 0 0 {name=p5 lab=ua[0]}
 C {devices/iopin.sym} 1280 -1180 1 0 {name=p44 lab=VGND}
-C {devices/iopin.sym} 1300 -1530 1 1 {name=p43 lab=VPWR}
+C {devices/iopin.sym} 1300 -1530 1 1 {name=p43 lab=VDPWR}
 C {devices/noconn.sym} 890 -1610 0 0 {name=l5}
 C {devices/noconn.sym} 890 -1590 0 0 {name=l6}
 C {devices/noconn.sym} 890 -1570 0 0 {name=l9}
@@ -161,11 +161,11 @@ C {devices/noconn.sym} 890 -1170 0 0 {name=l46}
 C {devices/noconn.sym} 890 -1150 0 0 {name=l47}
 C {devices/noconn.sym} 890 -1130 0 0 {name=l48}
 C {devices/lab_pin.sym} 1240 -1420 0 0 {name=p62 sig_type=std_logic lab=ui_in[0]}
-C {devices/lab_pin.sym} 1680 -1480 0 1 {name=p63 sig_type=std_logic lab=ua[2]}
+C {devices/lab_pin.sym} 1680 -1480 0 1 {name=p63 sig_type=std_logic lab=ua[3]}
 C {devices/lab_pin.sym} 1300 -1440 0 0 {name=p64 sig_type=std_logic lab=ua[1]}
 C {devices/lab_pin.sym} 1300 -1460 0 0 {name=p66 sig_type=std_logic lab=ua[0]}
 C {nauta_ota_dtrim2b.sym} 1490 -1370 0 0 {name=x1}
-C {devices/lab_pin.sym} 1680 -1460 0 1 {name=p68 sig_type=std_logic lab=ua[3]}
+C {devices/lab_pin.sym} 1680 -1460 0 1 {name=p68 sig_type=std_logic lab=ua[2]}
 C {devices/lab_pin.sym} 750 -1510 0 0 {name=p65 sig_type=std_logic lab=ua[2]}
 C {devices/lab_pin.sym} 750 -1490 0 0 {name=p67 sig_type=std_logic lab=ua[3]}
 C {devices/noconn.sym} 890 -1450 0 0 {name=l7}

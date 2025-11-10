@@ -1,0 +1,721 @@
+timestamp 1762799181
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use nauta_ota_dtrim2b nauta_ota_dtrim2b_0 -1 0 36908 0 1 11000
+port "ua[4]" 7 14906 0 15086 200 m4
+port "ua[5]" 8 11042 0 11222 200 m4
+port "ua[6]" 9 7178 0 7358 200 m4
+port "ua[7]" 10 3314 0 3494 200 m4
+port "ena" 1 29318 44952 29378 45152 m4
+port "clk" 0 28766 44952 28826 45152 m4
+port "rst_n" 2 28214 44952 28274 45152 m4
+port "uio_in[0]" 19 23246 44952 23306 45152 m4
+port "uio_in[1]" 20 22694 44952 22754 45152 m4
+port "uio_in[2]" 21 22142 44952 22202 45152 m4
+port "uio_in[3]" 22 21590 44952 21650 45152 m4
+port "uio_in[4]" 23 21038 44952 21098 45152 m4
+port "uio_in[5]" 24 20486 44952 20546 45152 m4
+port "uio_in[6]" 25 19934 44952 19994 45152 m4
+port "uio_in[7]" 26 19382 44952 19442 45152 m4
+port "uo_out[0]" 43 18830 44952 18890 45152 m4
+port "uo_out[1]" 44 18278 44952 18338 45152 m4
+port "uo_out[2]" 45 17726 44952 17786 45152 m4
+port "uo_out[3]" 46 17174 44952 17234 45152 m4
+port "uo_out[4]" 47 16622 44952 16682 45152 m4
+port "uo_out[5]" 48 16070 44952 16130 45152 m4
+port "uo_out[6]" 49 15518 44952 15578 45152 m4
+port "uo_out[7]" 50 14966 44952 15026 45152 m4
+port "uio_out[0]" 35 14414 44952 14474 45152 m4
+port "uio_out[1]" 36 13862 44952 13922 45152 m4
+port "uio_out[2]" 37 13310 44952 13370 45152 m4
+port "uio_out[3]" 38 12758 44952 12818 45152 m4
+port "uio_out[4]" 39 12206 44952 12266 45152 m4
+port "uio_out[5]" 40 11654 44952 11714 45152 m4
+port "uio_out[6]" 41 11102 44952 11162 45152 m4
+port "uio_out[7]" 42 10550 44952 10610 45152 m4
+port "uio_oe[0]" 27 9998 44952 10058 45152 m4
+port "uio_oe[1]" 28 9446 44952 9506 45152 m4
+port "uio_oe[2]" 29 8894 44952 8954 45152 m4
+port "uio_oe[3]" 30 8342 44952 8402 45152 m4
+port "uio_oe[4]" 31 7790 44952 7850 45152 m4
+port "uio_oe[5]" 32 7238 44952 7298 45152 m4
+port "uio_oe[6]" 33 6686 44952 6746 45152 m4
+port "uio_oe[7]" 34 6134 44952 6194 45152 m4
+port "ua[2]" 5 22634 0 22814 200 m4
+port "ui_in[5]" 16 24902 44952 24962 45152 m4
+port "ui_in[1]" 12 27110 44952 27170 45152 m4
+port "ui_in[7]" 18 23798 44952 23858 45152 m4
+port "ui_in[3]" 14 26006 44952 26066 45152 m4
+port "ui_in[4]" 15 25454 44952 25514 45152 m4
+port "ui_in[0]" 11 27662 44952 27722 45152 m4
+port "ui_in[6]" 17 24350 44952 24410 45152 m4
+port "ui_in[2]" 13 26558 44952 26618 45152 m4
+port "ua[3]" 6 18770 0 18950 200 m4
+port "ua[1]" 4 26498 0 26678 200 m4
+port "VGND" 52 800 1000 1200 44152 m4
+port "ua[0]" 3 30362 0 30542 200 m4
+port "VDPWR" 51 200 1000 600 44152 m4
+node "ua[4]" 0 146.962 14906 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36000 760 0 0 0 0
+node "ua[5]" 0 146.962 11042 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36000 760 0 0 0 0
+node "ua[6]" 0 146.962 7178 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36000 760 0 0 0 0
+node "ua[7]" 0 146.962 3314 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36000 760 0 0 0 0
+node "ena" 0 70.3847 29318 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "clk" 0 42.8754 28766 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "rst_n" 0 42.84 28214 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_in[0]" 0 42.8754 23246 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_in[1]" 0 42.8754 22694 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_in[2]" 0 42.8754 22142 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_in[3]" 0 42.8754 21590 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_in[4]" 0 42.8754 21038 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_in[5]" 0 42.8754 20486 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_in[6]" 0 42.8754 19934 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_in[7]" 0 42.8754 19382 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uo_out[0]" 0 42.8754 18830 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uo_out[1]" 0 42.8754 18278 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uo_out[2]" 0 42.8754 17726 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uo_out[3]" 0 42.8754 17174 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uo_out[4]" 0 42.8754 16622 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uo_out[5]" 0 42.8754 16070 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uo_out[6]" 0 42.8754 15518 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uo_out[7]" 0 42.8754 14966 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_out[0]" 0 42.8754 14414 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_out[1]" 0 42.8754 13862 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_out[2]" 0 42.8754 13310 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_out[3]" 0 42.8754 12758 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_out[4]" 0 42.8754 12206 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_out[5]" 0 42.8754 11654 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_out[6]" 0 42.8754 11102 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_out[7]" 0 42.8754 10550 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_oe[0]" 0 42.8754 9998 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_oe[1]" 0 42.8754 9446 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_oe[2]" 0 42.8754 8894 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_oe[3]" 0 42.8754 8342 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_oe[4]" 0 42.8754 7790 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_oe[5]" 0 42.8754 7238 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_oe[6]" 0 42.8754 6686 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_oe[7]" 0 70.3847 6134 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "ua[2]" 1 3660.86 22634 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 253700 2040 253700 2040 2292300 15040 0 0 0 0
+node "ui_in[5]" 9 8576.88 24902 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 135300 1480 552750 5570 9548850 83696 0 0 0 0
+node "ui_in[1]" 10 8363.26 27110 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 131028 1448 1305178 12118 9509146 85526 0 0 0 0
+node "ui_in[7]" 11 9162.69 23798 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 92800 1220 967950 9290 8335859 85208 0 0 0 0
+node "ui_in[3]" 12 12901.1 26006 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 92800 1220 1644150 15170 8037494 86198 0 0 0 0
+node "ui_in[4]" 8 3121.34 25454 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 52800 920 681850 6850 4579040 53694 0 0 0 0
+node "ui_in[0]" 9 5105.39 27662 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 56644 952 1258394 11862 4385434 53620 0 0 0 0
+node "ui_in[6]" 7 5259.49 24350 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 57600 960 867136 8488 5334300 53574 0 0 0 0
+node "ui_in[2]" 8 4162.94 26558 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 67500 1040 1473950 13730 5098180 53724 0 0 0 0
+node "ua[3]" 5 8980.94 18770 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 145200 1540 145200 1540 6763600 53040 0 0 0 0
+node "m1_25160_3970#" 0 475.346 25160 3970 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 183600 1760 0 0 0 0 0 0 0 0 0 0
+node "ua[1]" 3 6209.16 26498 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 292000 2260 292000 2260 292000 2260 2851700 22540 0 0 0 0
+node "VGND" 9 40801.3 800 1000 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21473600 40660 19893622 37898 720000 3600 17500800 87504 0 0 0 0
+node "ua[0]" 5 8659.34 30362 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 132600 1460 1317900 7560 151800 1580 2992200 30000 0 0 0 0
+node "VDPWR" 10 91168.6 200 1000 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 89837500 89820 1864000 10920 1864000 10920 17260800 87104 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "uio_in[2]" "uio_in[3]" 31.0231
+cap "VGND" "ui_in[7]" 15.0951
+cap "uo_out[2]" "uo_out[1]" 31.0231
+cap "ui_in[6]" "ui_in[1]" 1834.07
+cap "ui_in[4]" "ui_in[7]" 1.17292
+cap "ui_in[6]" "ui_in[0]" 20.1475
+cap "rst_n" "ui_in[0]" 31.1373
+cap "ui_in[1]" "ua[2]" 0.353186
+cap "uio_out[5]" "uio_out[6]" 31.0231
+cap "ui_in[3]" "ua[3]" 28.7353
+cap "uo_out[5]" "uo_out[4]" 31.0231
+cap "ui_in[5]" "ui_in[3]" 311.417
+cap "ui_in[3]" "ui_in[2]" 2307.16
+cap "uio_oe[1]" "uio_oe[0]" 31.0231
+cap "uio_out[5]" "uio_out[4]" 31.0231
+cap "ui_in[6]" "ui_in[7]" 1514.48
+cap "uio_out[0]" "uo_out[7]" 31.0231
+cap "uio_in[5]" "uio_in[6]" 31.0231
+cap "ui_in[1]" "ua[3]" 38.6035
+cap "uio_out[7]" "uio_out[6]" 31.0231
+cap "ui_in[5]" "ui_in[1]" 4563.73
+cap "ui_in[1]" "ui_in[2]" 1839.68
+cap "ui_in[5]" "ui_in[0]" 319.177
+cap "ui_in[0]" "ui_in[2]" 4.14302
+cap "ui_in[6]" "ui_in[4]" 29.1923
+cap "uo_out[2]" "uo_out[3]" 31.0231
+cap "uio_in[3]" "uio_in[4]" 31.0231
+cap "uio_out[7]" "uio_oe[0]" 31.0231
+cap "uio_out[1]" "uio_out[2]" 31.0231
+cap "uio_out[4]" "uio_out[3]" 31.0231
+cap "uio_out[2]" "uio_out[3]" 31.0231
+cap "ua[3]" "ui_in[7]" 28.7353
+cap "uo_out[4]" "uo_out[3]" 31.0231
+cap "ui_in[5]" "ui_in[7]" 2.38902
+cap "ui_in[2]" "ui_in[7]" 5495.54
+cap "uo_out[1]" "uo_out[0]" 31.0231
+cap "ui_in[4]" "ua[3]" 6.74468
+cap "uio_oe[7]" "uio_oe[6]" 31.0231
+cap "uo_out[6]" "uo_out[7]" 31.0231
+cap "ui_in[5]" "ui_in[4]" 10187.6
+cap "ui_in[4]" "ui_in[2]" 262.415
+cap "ui_in[1]" "ui_in[3]" 5.54422
+cap "ui_in[3]" "VDPWR" 1639.33
+cap "uio_oe[5]" "uio_oe[4]" 31.0231
+cap "ui_in[0]" "ui_in[3]" 1.85096
+cap "uio_in[2]" "uio_in[1]" 31.0231
+cap "rst_n" "clk" 31.0231
+cap "uio_oe[1]" "uio_oe[2]" 31.0231
+cap "ena" "clk" 31.0231
+cap "ui_in[1]" "ui_in[0]" 8456.04
+cap "ui_in[5]" "ui_in[6]" 610.641
+cap "ui_in[6]" "ui_in[2]" 7579.9
+cap "uio_oe[3]" "uio_oe[4]" 31.0231
+cap "uo_out[0]" "uio_in[7]" 31.0231
+cap "uio_in[5]" "uio_in[4]" 31.0231
+cap "ui_in[3]" "ui_in[7]" 5242.91
+cap "ua[2]" "ua[3]" 389.585
+cap "ui_in[5]" "ua[2]" 0.657426
+cap "uio_oe[5]" "uio_oe[6]" 31.0231
+cap "uio_in[6]" "uio_in[7]" 31.0231
+cap "VGND" "ui_in[3]" 337.608
+cap "uio_out[1]" "uio_out[0]" 31.0231
+cap "ui_in[1]" "ui_in[7]" 901.023
+cap "ui_in[4]" "ui_in[3]" 1384.42
+cap "VDPWR" "ui_in[7]" 285.815
+cap "m1_25160_3970#" "ua[2]" 757.878
+cap "uio_in[1]" "uio_in[0]" 31.0231
+cap "uo_out[5]" "uo_out[6]" 31.0231
+cap "uio_in[0]" "ui_in[7]" 31.0231
+cap "VGND" "VDPWR" 15200.8
+cap "ui_in[5]" "ua[3]" 3177.71
+cap "ui_in[4]" "ui_in[1]" 345.448
+cap "ui_in[5]" "ui_in[2]" 306.762
+cap "ui_in[4]" "ui_in[0]" 7733.9
+cap "ui_in[6]" "ui_in[3]" 407.369
+cap "m1_25160_3970#" "ua[3]" 1.60156
+cap "uio_oe[2]" "uio_oe[3]" 31.0231
+cap "ua[3]" "VDPWR" 1.10363
+cap "ua[3]" "VDPWR" 8.32248
+cap "VDPWR" "ua[3]" 10.8554
+cap "ua[3]" "nauta_ota_dtrim2b_0/vdd" 5.62672
+cap "ua[3]" "nauta_ota_dtrim2b_0/out_p" 0.0432697
+cap "ua[3]" "VDPWR" 0.425791
+cap "VDPWR" "nauta_ota_dtrim2b_0/sw_p_B05" 40.4239
+cap "nauta_ota_dtrim2b_0/sw_n_B05" "nauta_ota_dtrim2b_0/sw_p_B05" 0.247642
+cap "nauta_ota_dtrim2b_0/sw_p_B1" "nauta_ota_dtrim2b_0/sw_n_B05" 0.291825
+cap "nauta_ota_dtrim2b_0/sw_p_B1" "nauta_ota_dtrim2b_0/sw_p_B05" 0.00162616
+cap "VDPWR" "ua[3]" 3.55291
+cap "nauta_ota_dtrim2b_0/sw_n_B05" "ua[3]" 0.960239
+cap "VDPWR" "nauta_ota_dtrim2b_0/sw_n_B05" 79.8065
+cap "nauta_ota_dtrim2b_0/sw_p_B05" "ua[3]" 1.08281
+cap "VDPWR" "nauta_ota_dtrim2b_0/sw_p_B05" 337.111
+cap "nauta_ota_dtrim2b_0/sw_p_B05" "nauta_ota_dtrim2b_0/sw_n_B05" -41.724
+cap "ua[3]" "nauta_ota_dtrim2b_0/sw_n_B05" 0.0949686
+cap "VDPWR" "ua[3]" 6.04844
+cap "nauta_ota_dtrim2b_0/sw_p_B1" "nauta_ota_dtrim2b_0/sw_n_B05" -2.66529
+cap "nauta_ota_dtrim2b_0/sw_n_B1" "VDPWR" 0.633923
+cap "nauta_ota_dtrim2b_0/sw_p_B1" "VDPWR" 196.915
+cap "VDPWR" "nauta_ota_dtrim2b_0/sw_n_B05" 222.525
+cap "nauta_ota_dtrim2b_0/sw_p_B1" "nauta_ota_dtrim2b_0/sw_n_B05" -1.95757
+cap "nauta_ota_dtrim2b_0/sw_p_B1" "ua[3]" 1.08281
+cap "nauta_ota_dtrim2b_0/x6/vdd" "nauta_ota_dtrim2b_0/sw_p_B1" 62.0181
+cap "nauta_ota_dtrim2b_0/sw_p_B1" "nauta_ota_dtrim2b_0/sw_n_B1" -16.8312
+cap "nauta_ota_dtrim2b_0/x6/vdd" "ua[3]" 120.48
+cap "ua[3]" "nauta_ota_dtrim2b_0/sw_n_B1" 24.5289
+cap "nauta_ota_dtrim2b_0/x6/vdd" "nauta_ota_dtrim2b_0/sw_n_B1" 158.594
+cap "nauta_ota_dtrim2b_0/sw_n_B1" "nauta_ota_dtrim2b_0/x2/vdd" 0.379534
+cap "nauta_ota_dtrim2b_0/out_p" "ua[3]" 25.5079
+cap "nauta_ota_dtrim2b_0/x2/vdd" "ua[3]" 150.391
+cap "nauta_ota_dtrim2b_0/x2/vdd" "nauta_ota_dtrim2b_0/out_p" 42.0707
+cap "nauta_ota_dtrim2b_0/x2/vdd" "nauta_ota_dtrim2b_0/out_p" 20.7514
+cap "ua[1]" "nauta_ota_dtrim2b_0/x2/vdd" 6.17158
+cap "ua[1]" "nauta_ota_dtrim2b_0/x2/XM2/a_n33_n1697#" 0.886495
+cap "nauta_ota_dtrim2b_0/x2/vdd" "ua[1]" 68.2557
+cap "nauta_ota_dtrim2b_0/x2/XM2/a_30_n1600#" "ua[1]" 0.123856
+cap "nauta_ota_dtrim2b_0/sw_n_B05" "nauta_ota_dtrim2b_0/sw_p_B05" 0.693873
+cap "nauta_ota_dtrim2b_0/x12/vdd" "nauta_ota_dtrim2b_0/sw_p_B05" 88.1083
+cap "nauta_ota_dtrim2b_0/sw_p_B1" "nauta_ota_dtrim2b_0/sw_n_B05" 0.182869
+cap "nauta_ota_dtrim2b_0/x8/vdd" "nauta_ota_dtrim2b_0/sw_n_B05" 141.807
+cap "nauta_ota_dtrim2b_0/sw_n_B05" "nauta_ota_dtrim2b_0/sw_p_B05" 47.0779
+cap "nauta_ota_dtrim2b_0/x8/vdd" "nauta_ota_dtrim2b_0/sw_p_B05" 16.9503
+cap "nauta_ota_dtrim2b_0/sw_p_B1" "nauta_ota_dtrim2b_0/sw_n_B05" 5.27895
+cap "ua[3]" "nauta_ota_dtrim2b_0/x8/vdd" 5.04466
+cap "nauta_ota_dtrim2b_0/sw_n_B05" "nauta_ota_dtrim2b_0/x8/vdd" 230.395
+cap "nauta_ota_dtrim2b_0/sw_p_B1" "nauta_ota_dtrim2b_0/x8/vdd" 59.1726
+cap "nauta_ota_dtrim2b_0/sw_n_B1" "nauta_ota_dtrim2b_0/x8/vdd" 2.61027
+cap "nauta_ota_dtrim2b_0/sw_n_B1" "nauta_ota_dtrim2b_0/sw_p_B1" 26.4217
+cap "nauta_ota_dtrim2b_0/x6/vdd" "nauta_ota_dtrim2b_0/sw_p_B1" 117.022
+cap "nauta_ota_dtrim2b_0/sw_p_B1" "nauta_ota_dtrim2b_0/sw_n_B05" 1.33417
+cap "nauta_ota_dtrim2b_0/sw_n_B1" "ua[3]" 26.0632
+cap "nauta_ota_dtrim2b_0/x2/vdd" "ua[3]" 105.109
+cap "nauta_ota_dtrim2b_0/sw_p_B1" "nauta_ota_dtrim2b_0/x2/vdd" 2.09645
+cap "nauta_ota_dtrim2b_0/out_p" "ua[3]" 28.1189
+cap "nauta_ota_dtrim2b_0/sw_n_B1" "nauta_ota_dtrim2b_0/x2/vdd" 1.67984
+cap "ua[1]" "nauta_ota_dtrim2b_0/x4/XM2/a_n33_n897#" 0.00938295
+cap "ua[1]" "nauta_ota_dtrim2b_0/x2/vdd" 8.55467
+cap "nauta_ota_dtrim2b_0/x4/XM2/a_n33_n897#" "ua[1]" 0.0591436
+cap "nauta_ota_dtrim2b_0/x2/vdd" "ua[1]" 68.093
+cap "nauta_ota_dtrim2b_0/x2/XM2/a_n33_n1697#" "ua[1]" 5.81276
+cap "nauta_ota_dtrim2b_0/x2/XM2/a_30_n1600#" "ua[1]" 5.53299
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x12/vdd" 79.2109
+cap "nauta_ota_dtrim2b_0/sw_n_B05" "ui_in[3]" 0.693873
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x12/XM3/a_40_n100#" 3.73336
+cap "nauta_ota_dtrim2b_0/x12/sw_p" "ui_in[3]" 14.4708
+cap "nauta_ota_dtrim2b_0/x8/vdd" "nauta_ota_dtrim2b_0/x12/sw_p" 1.69503
+cap "nauta_ota_dtrim2b_0/x8/vdd" "ui_in[7]" 105.99
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x12/sw_p" 54.671
+cap "nauta_ota_dtrim2b_0/x12/sw_p" "ui_in[3]" 6.26865
+cap "nauta_ota_dtrim2b_0/x8/vdd" "ui_in[3]" 9.27443
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x12/XM3/a_40_n100#" 2.49152
+cap "nauta_ota_dtrim2b_0/x8/vdd" "nauta_ota_dtrim2b_0/sw_n_B05" -1.13687e-13
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/sw_n_B05" 121.554
+cap "nauta_ota_dtrim2b_0/x12/XM3/a_40_n100#" "ui_in[3]" 3.19719
+cap "nauta_ota_dtrim2b_0/sw_n_B05" "ui_in[3]" 0.443314
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x8/vdd" 2.35467
+cap "ua[3]" "nauta_ota_dtrim2b_0/x8/vdd" 4.3818
+cap "nauta_ota_dtrim2b_0/x8/sw_p" "ui_in[5]" 0.113571
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/x8/vdd" 10.9437
+cap "nauta_ota_dtrim2b_0/x8/sw_p" "ua[3]" 0.096142
+cap "nauta_ota_dtrim2b_0/x8/sw_p" "ui_in[1]" 0.443777
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x8/vdd" 143.267
+cap "nauta_ota_dtrim2b_0/x8/sw_p" "ui_in[7]" 10.1749
+cap "nauta_ota_dtrim2b_0/x8/XM3/a_30_n100#" "ui_in[7]" 2.15393
+cap "nauta_ota_dtrim2b_0/x8/sw_p" "nauta_ota_dtrim2b_0/x8/vdd" 5.68434e-14
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x8/sw_n" 139.998
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/x8/sw_n" 22.7673
+cap "ua[3]" "nauta_ota_dtrim2b_0/x8/sw_p" 1.12822
+cap "ua[3]" "nauta_ota_dtrim2b_0/x8/sw_n" 26.0632
+cap "nauta_ota_dtrim2b_0/x8/XM3/a_30_n100#" "ui_in[1]" 2.66643
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/x8/vdd" 104.048
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x8/sw_p" 1.33417
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x8/sw_p" 5.305
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/x8/sw_p" 162.258
+cap "ua[3]" "nauta_ota_dtrim2b_0/x6/out" 21.3682
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x6/out" 1.25128
+cap "nauta_ota_dtrim2b_0/x4/vdd" "ui_in[1]" 0.0608216
+cap "ua[3]" "nauta_ota_dtrim2b_0/x2/out" 36.3917
+cap "nauta_ota_dtrim2b_0/x6/out" "ui_in[1]" 0.264987
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x2/out" 0.0981478
+cap "nauta_ota_dtrim2b_0/x4/vdd" "ua[3]" 41.6433
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x4/vdd" 0.10869
+cap "nauta_ota_dtrim2b_0/in_n" "nauta_ota_dtrim2b_0/x2/out" 0.0153499
+cap "nauta_ota_dtrim2b_0/in_n" "nauta_ota_dtrim2b_0/vdd" 8.55467
+cap "nauta_ota_dtrim2b_0/in_n" "nauta_ota_dtrim2b_0/x4/vdd" 1.19494
+cap "nauta_ota_dtrim2b_0/in_n" "nauta_ota_dtrim2b_0/x2/XM2/w_n226_n1819#" 34.1288
+cap "nauta_ota_dtrim2b_0/x2/out" "nauta_ota_dtrim2b_0/in_n" 7.57474
+cap "nauta_ota_dtrim2b_0/vdd" "nauta_ota_dtrim2b_0/in_n" 30.9288
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x12/sw_n" 0.693873
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x12/in" 17.1407
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x12/out" 65.7811
+cap "nauta_ota_dtrim2b_0/x12/vdd" "ui_in[3]" 22.627
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x12/XM4/a_40_n50#" 1.23052
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x12/XM3/a_40_n100#" 5.37932
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x12/gnd" 3.12296
+cap "nauta_ota_dtrim2b_0/x8/out" "ui_in[3]" 5.32247
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x12/XM4/a_40_n50#" 1.8424
+cap "nauta_ota_dtrim2b_0/x12/sw_n" "ui_in[7]" 121.554
+cap "nauta_ota_dtrim2b_0/x12/XM3/a_40_n100#" "ui_in[3]" 1.85953
+cap "nauta_ota_dtrim2b_0/x12/XM4/a_40_n50#" "ui_in[3]" 0.425927
+cap "nauta_ota_dtrim2b_0/x12/sw_n" "ui_in[3]" 2.05033
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x8/gnd" 3.04531
+cap "nauta_ota_dtrim2b_0/x8/gnd" "ui_in[3]" 0.721821
+cap "nauta_ota_dtrim2b_0/x12/sw_n" "ui_in[1]" 0.0166617
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x12/in" 29.6343
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x8/vdd" 20.8974
+cap "nauta_ota_dtrim2b_0/x12/in" "ui_in[3]" 1.75387
+cap "nauta_ota_dtrim2b_0/x8/out" "ui_in[7]" 12.0325
+cap "nauta_ota_dtrim2b_0/x8/vdd" "ui_in[3]" 1.70218
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x12/XM3/a_40_n100#" 6.49599
+cap "nauta_ota_dtrim2b_0/x8/XM3/a_30_n100#" "ui_in[5]" 1.1536
+cap "nauta_ota_dtrim2b_0/x8/XM3/a_30_n100#" "ui_in[1]" 2.94638
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x8/sw_p" 0.693115
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x8/in" 64.5281
+cap "ua[3]" "nauta_ota_dtrim2b_0/x8/in" 0.0712453
+cap "nauta_ota_dtrim2b_0/x8/XM4/a_30_n50#" "ui_in[7]" 0.697777
+cap "nauta_ota_dtrim2b_0/x8/gnd" "ua[3]" 0.00637744
+cap "nauta_ota_dtrim2b_0/x8/gnd" "ui_in[7]" 2.09704
+cap "nauta_ota_dtrim2b_0/x8/in" "ui_in[5]" 1.26822
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x8/sw_n" 2.15859
+cap "nauta_ota_dtrim2b_0/x8/vdd" "ua[3]" 0.576687
+cap "nauta_ota_dtrim2b_0/x8/vdd" "ui_in[7]" 16.0075
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/x8/in" 1.96535
+cap "nauta_ota_dtrim2b_0/x8/gnd" "ui_in[5]" 0.236507
+cap "nauta_ota_dtrim2b_0/x8/XM4/a_30_n50#" "ui_in[1]" 1.05804
+cap "nauta_ota_dtrim2b_0/x8/vdd" "ui_in[5]" 0.699012
+cap "nauta_ota_dtrim2b_0/x8/gnd" "ui_in[1]" 0.270042
+cap "nauta_ota_dtrim2b_0/x8/vdd" "ui_in[1]" 1.97112
+cap "nauta_ota_dtrim2b_0/x8/out" "ui_in[7]" 25.3365
+cap "nauta_ota_dtrim2b_0/x8/XM3/a_30_n100#" "ui_in[7]" 3.4028
+cap "ua[3]" "nauta_ota_dtrim2b_0/x8/XM3/a_30_n100#" 1.02246
+cap "nauta_ota_dtrim2b_0/x8/out" "ui_in[5]" 0.13683
+cap "nauta_ota_dtrim2b_0/x8/out" "ui_in[1]" 0.259929
+cap "nauta_ota_dtrim2b_0/x8/sw_n" "ui_in[1]" 144.331
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x8/sw_n" 0.383524
+cap "ua[3]" "nauta_ota_dtrim2b_0/x6/out" 149.315
+cap "nauta_ota_dtrim2b_0/x8/sw_n" "ua[3]" 8.79221
+cap "nauta_ota_dtrim2b_0/x6/in" "ui_in[1]" 242.021
+cap "nauta_ota_dtrim2b_0/x8/XM3/a_30_n100#" "ui_in[1]" 6.72944
+cap "nauta_ota_dtrim2b_0/x6/gnd" "ui_in[1]" 3.35655
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x6/out" 68.2254
+cap "nauta_ota_dtrim2b_0/x8/XM4/a_30_n50#" "ui_in[1]" 1.77355
+cap "nauta_ota_dtrim2b_0/x8/sw_p" "ui_in[1]" 14.1131
+cap "nauta_ota_dtrim2b_0/x6/in" "ua[3]" 121.985
+cap "nauta_ota_dtrim2b_0/x8/sw_n" "ui_in[5]" 88.2209
+cap "nauta_ota_dtrim2b_0/x8/sw_p" "ui_in[7]" 0.0762383
+cap "nauta_ota_dtrim2b_0/x8/sw_p" "ua[3]" 0.45129
+cap "nauta_ota_dtrim2b_0/x6/in" "ui_in[5]" 231.418
+cap "nauta_ota_dtrim2b_0/x8/vdd" "ui_in[1]" 23.6415
+cap "nauta_ota_dtrim2b_0/x8/sw_p" "ui_in[5]" 0.519374
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/x6/out" 19.8906
+cap "nauta_ota_dtrim2b_0/x2/out" "ui_in[5]" 0.117511
+cap "nauta_ota_dtrim2b_0/x2/gnd" "ui_in[5]" 0.193504
+cap "ua[3]" "nauta_ota_dtrim2b_0/x6/XM2/w_n226_n979#" 13.676
+cap "nauta_ota_dtrim2b_0/x6/out" "ui_in[5]" 1.62439
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/x6/XM2/w_n226_n979#" 0.0270318
+cap "nauta_ota_dtrim2b_0/x2/out" "ua[3]" 111.212
+cap "nauta_ota_dtrim2b_0/x2/gnd" "ua[3]" 3.1702
+cap "nauta_ota_dtrim2b_0/x2/gnd" "ui_in[1]" 0.108127
+cap "nauta_ota_dtrim2b_0/x6/out" "ua[3]" 85.0506
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/x6/out" 0.228334
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x6/XM2/w_n226_n979#" 0.101325
+cap "nauta_ota_dtrim2b_0/x2/out" "nauta_ota_dtrim2b_0/vdd" -2.27374e-13
+cap "nauta_ota_dtrim2b_0/x2/out" "nauta_ota_dtrim2b_0/in_n" 0.259157
+cap "nauta_ota_dtrim2b_0/vdd" "nauta_ota_dtrim2b_0/in_n" 17.9711
+cap "nauta_ota_dtrim2b_0/x2/XM2/w_n226_n1819#" "nauta_ota_dtrim2b_0/vdd" 1.42109e-14
+cap "nauta_ota_dtrim2b_0/in_n" "nauta_ota_dtrim2b_0/x2/out" 19.7458
+cap "nauta_ota_dtrim2b_0/in_n" "nauta_ota_dtrim2b_0/x2/gnd" 10.1522
+cap "nauta_ota_dtrim2b_0/in_n" "nauta_ota_dtrim2b_0/x2/XM2/a_n88_n1600#" 4.36574
+cap "nauta_ota_dtrim2b_0/in_n" "nauta_ota_dtrim2b_0/x4/XM2/w_n226_n1019#" 0.390614
+cap "nauta_ota_dtrim2b_0/in_n" "nauta_ota_dtrim2b_0/vdd" 59.7945
+cap "nauta_ota_dtrim2b_0/in_n" "nauta_ota_dtrim2b_0/x2/XM2/w_n226_n1819#" 15.242
+cap "nauta_ota_dtrim2b_0/x12/sw_n" "ui_in[3]" 8.13297
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x12/gnd" 48.5468
+cap "nauta_ota_dtrim2b_0/x12/out" "ui_in[3]" 107.903
+cap "nauta_ota_dtrim2b_0/x12/XM4/a_40_n50#" "ui_in[3]" 3.65974
+cap "nauta_ota_dtrim2b_0/x12/out" "nauta_ota_dtrim2b_0/x12/gnd" 6.9923
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x8/gnd" 10.2925
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x12/XM4/a_40_n50#" 3.23968
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x12/sw_n" 0.815379
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x8/out" 85.3687
+cap "nauta_ota_dtrim2b_0/x12/XM4/a_40_n50#" "ui_in[3]" 3.31856
+cap "nauta_ota_dtrim2b_0/x8/out" "nauta_ota_dtrim2b_0/x8/gnd" 3.12307
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x8/gnd" 104.548
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x12/sw_n" 75.6402
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x8/gnd" 7.57635
+cap "nauta_ota_dtrim2b_0/x8/sw_n" "ui_in[1]" 1.94992
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x12/sw_n" 7.48558
+cap "nauta_ota_dtrim2b_0/x8/gnd" "ua[3]" 3.01958
+cap "nauta_ota_dtrim2b_0/x8/XM4/a_30_n50#" "ui_in[7]" 1.72563
+cap "nauta_ota_dtrim2b_0/x8/XM4/a_30_n50#" "ui_in[1]" 0.262002
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x8/sw_n" 1.11329
+cap "nauta_ota_dtrim2b_0/x8/out" "ui_in[7]" 81.672
+cap "nauta_ota_dtrim2b_0/x8/out" "ui_in[1]" 4.83473
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x8/gnd" 82.2251
+cap "nauta_ota_dtrim2b_0/x8/gnd" "ui_in[1]" 13.8182
+cap "nauta_ota_dtrim2b_0/x8/sw_n" "ua[3]" 0.0366954
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x8/in" 23.861
+cap "nauta_ota_dtrim2b_0/x8/in" "ui_in[1]" 0.0628628
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x8/XM4/a_30_n50#" 0.141548
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x8/sw_n" 3.42877
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x8/out" 2.16718
+cap "nauta_ota_dtrim2b_0/x6/in" "ui_in[5]" 144.679
+cap "nauta_ota_dtrim2b_0/x6/out" "ui_in[1]" 137.568
+cap "nauta_ota_dtrim2b_0/x8/sw_n" "ua[3]" 0.165239
+cap "nauta_ota_dtrim2b_0/x6/out" "ui_in[5]" 198.484
+cap "nauta_ota_dtrim2b_0/x6/in" "ua[3]" 86.3944
+cap "nauta_ota_dtrim2b_0/x6/out" "ua[3]" 178.6
+cap "nauta_ota_dtrim2b_0/x8/sw_n" "ui_in[1]" 30.3661
+cap "nauta_ota_dtrim2b_0/x8/XM4/a_30_n50#" "ui_in[1]" 2.1405
+cap "nauta_ota_dtrim2b_0/x8/sw_n" "ui_in[5]" 1.45776
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/x6/gnd" 66.4775
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/x6/in" 124.858
+cap "nauta_ota_dtrim2b_0/gnd" "ua[3]" 65.4447
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x6/out" 1.95208
+cap "nauta_ota_dtrim2b_0/x6/out" "ua[3]" 7.32843
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/gnd" 1.29491
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x2/out" 0.389814
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/x6/out" 0.0968181
+cap "nauta_ota_dtrim2b_0/x2/out" "ua[3]" 69.6833
+cap "nauta_ota_dtrim2b_0/gnd" "ui_in[5]" 3.28111
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x12/gnd" 140.955
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x8/gnd" 2.67876
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x8/gnd" 275.484
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x8/gnd" 243.126
+cap "nauta_ota_dtrim2b_0/x8/gnd" "ui_in[5]" 2.21889
+cap "ua[3]" "nauta_ota_dtrim2b_0/x8/gnd" 0.649692
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/x8/gnd" 4.26152
+cap "nauta_ota_dtrim2b_0/x6/gnd" "ua[3]" 74.2549
+cap "nauta_ota_dtrim2b_0/x6/gnd" "ui_in[5]" 175.915
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/out_p" 6.05353
+cap "nauta_ota_dtrim2b_0/out_p" "ua[3]" 45.3739
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/out_n" 17.3507
+cap "nauta_ota_dtrim2b_0/out_p" "ui_in[5]" 58.6917
+cap "nauta_ota_dtrim2b_0/out_n" "ua[3]" 178.476
+cap "nauta_ota_dtrim2b_0/out_n" "ui_in[5]" 126.464
+cap "nauta_ota_dtrim2b_0/x6/gnd" "ui_in[1]" 361.815
+cap "nauta_ota_dtrim2b_0/gnd" "ui_in[5]" 1.40182
+cap "nauta_ota_dtrim2b_0/out_p" "ua[3]" 162.411
+cap "nauta_ota_dtrim2b_0/gnd" "ui_in[1]" 0.626061
+cap "nauta_ota_dtrim2b_0/gnd" "ua[3]" 155.285
+cap "nauta_ota_dtrim2b_0/x11/gnd" "nauta_ota_dtrim2b_0/x11/out" 0.00311498
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x11/sw_n" 9.17079
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x11/gnd" 41.7728
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x11/XM4/a_40_n50#" 4.27219
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x11/in" 0.776898
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x11/out" 110.008
+cap "nauta_ota_dtrim2b_0/x7/out" "ui_in[7]" 92.2418
+cap "nauta_ota_dtrim2b_0/x7/out" "ui_in[3]" 0.0614789
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x11/XM4/a_40_n50#" 4.35957
+cap "nauta_ota_dtrim2b_0/x7/gnd" "nauta_ota_dtrim2b_0/x7/out" 0.010736
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x11/sw_n" 87.8081
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x11/XM4/a_40_n50#" 3.74449
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x11/sw_n" 0.815379
+cap "nauta_ota_dtrim2b_0/x7/gnd" "ui_in[7]" 92.8235
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x11/in" 0.760194
+cap "nauta_ota_dtrim2b_0/x7/gnd" "ui_in[3]" 9.50332
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x11/in" 0.587454
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x7/out" 2.64588
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/x7/out" 5.49869
+cap "ua[3]" "nauta_ota_dtrim2b_0/x7/sw_n" 0.0738635
+cap "ua[3]" "nauta_ota_dtrim2b_0/x7/in" 0.010249
+cap "nauta_ota_dtrim2b_0/x7/sw_n" "ui_in[5]" 0.972662
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/x7/sw_n" 1.83686
+cap "nauta_ota_dtrim2b_0/x7/gnd" "ui_in[7]" 68.1852
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x7/in" 0.00646593
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/x7/in" 0.0774907
+cap "nauta_ota_dtrim2b_0/x7/out" "ui_in[7]" 84.0573
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/x7/XM4/a_30_n50#" 0.552208
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x7/XM4/a_30_n50#" 0.153648
+cap "nauta_ota_dtrim2b_0/x7/sw_n" "ui_in[7]" 1.81893
+cap "ua[3]" "nauta_ota_dtrim2b_0/x7/gnd" 1.62059
+cap "nauta_ota_dtrim2b_0/x7/gnd" "nauta_ota_dtrim2b_0/x7/out" -4.54747e-13
+cap "nauta_ota_dtrim2b_0/x7/in" "ui_in[7]" 77.8772
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/x7/gnd" 11.397
+cap "nauta_ota_dtrim2b_0/x7/XM4/a_30_n50#" "ui_in[7]" 1.57882
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x7/gnd" 5.48093
+cap "nauta_ota_dtrim2b_0/x5/gnd" "ui_in[1]" 51.9023
+cap "nauta_ota_dtrim2b_0/x5/in" "ui_in[1]" 396.148
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x5/in" 503.547
+cap "ua[3]" "nauta_ota_dtrim2b_0/x5/in" 362.791
+cap "nauta_ota_dtrim2b_0/x7/sw_n" "ui_in[1]" 36.7089
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x7/sw_n" 1.47697
+cap "nauta_ota_dtrim2b_0/x5/out" "ui_in[1]" 241.419
+cap "nauta_ota_dtrim2b_0/x7/XM4/a_30_n50#" "ui_in[1]" 2.07214
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x5/out" 370.504
+cap "ua[3]" "nauta_ota_dtrim2b_0/x5/out" 246.783
+cap "nauta_ota_dtrim2b_0/gnd" "ua[3]" 40.0629
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x1/out" 0.37766
+cap "ua[3]" "nauta_ota_dtrim2b_0/x5/out" 230.883
+cap "nauta_ota_dtrim2b_0/gnd" "ui_in[5]" 1.19179
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x5/out" 2.07137
+cap "nauta_ota_dtrim2b_0/gnd" "ui_in[1]" 0.516164
+cap "ua[3]" "nauta_ota_dtrim2b_0/x1/out" 162.995
+cap "nauta_ota_dtrim2b_0/x11/sw_p" "ui_in[3]" 1.83089
+cap "nauta_ota_dtrim2b_0/x11/out" "ui_in[3]" 55.5768
+cap "nauta_ota_dtrim2b_0/x11/sw_n" "ui_in[3]" 3.6075
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x11/in" 16.0338
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x11/XM3/a_40_n100#" 6.50329
+cap "nauta_ota_dtrim2b_0/x11/vdd" "ui_in[3]" 26.3492
+cap "nauta_ota_dtrim2b_0/x11/gnd" "ui_in[3]" 2.29124
+cap "nauta_ota_dtrim2b_0/x11/vdd" "nauta_ota_dtrim2b_0/x11/out" 0.708385
+cap "nauta_ota_dtrim2b_0/x11/XM4/a_40_n50#" "ui_in[3]" 0.618063
+cap "nauta_ota_dtrim2b_0/x7/out" "nauta_ota_dtrim2b_0/x7/vdd" 2.28863
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x11/XM4/a_40_n50#" 0.885577
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x11/XM3/a_40_n100#" 7.49504
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x11/XM3/a_40_n100#" 2.95874
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x11/in" 29.166
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x11/in" 1.16642
+cap "nauta_ota_dtrim2b_0/x7/out" "ui_in[7]" 11.6404
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x11/sw_p" 2.89987
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x11/sw_p" 0.115474
+cap "nauta_ota_dtrim2b_0/x7/out" "ui_in[3]" 5.09685
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x7/gnd" 2.25662
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x7/gnd" 0.494963
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x7/vdd" 24.4163
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x7/vdd" 2.20238
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x11/sw_n" 141.398
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x11/sw_n" 2.56612
+cap "nauta_ota_dtrim2b_0/x7/gnd" "ui_in[1]" 0.357157
+cap "ua[3]" "nauta_ota_dtrim2b_0/x7/vdd" 0.463859
+cap "ua[3]" "nauta_ota_dtrim2b_0/x7/in" 0.117721
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x7/XM4/a_30_n50#" 0.115212
+cap "nauta_ota_dtrim2b_0/x7/sw_p" "ui_in[5]" 0.228721
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x7/XM3/a_30_n100#" 4.51485
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/x7/out" 2.34458
+cap "ua[3]" "nauta_ota_dtrim2b_0/x7/XM3/a_30_n100#" 0.172813
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/x7/vdd" 1.30268
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/x7/in" 2.24935
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x7/XM4/a_30_n50#" 0.57573
+cap "nauta_ota_dtrim2b_0/x7/sw_p" "ui_in[7]" 3.64942
+cap "nauta_ota_dtrim2b_0/x7/sw_p" "ua[3]" 0.0600655
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/x7/XM3/a_30_n100#" 2.96405
+cap "nauta_ota_dtrim2b_0/x7/gnd" "ui_in[5]" 0.105093
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/x7/XM4/a_30_n50#" 0.894508
+cap "nauta_ota_dtrim2b_0/x7/sw_p" "ui_in[1]" 0.152634
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x7/out" 0.159288
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x7/gnd" 1.84194
+cap "nauta_ota_dtrim2b_0/x7/vdd" "ui_in[5]" 1.62705
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x7/in" 1.47665
+cap "nauta_ota_dtrim2b_0/x7/gnd" "ua[3]" 0.110587
+cap "nauta_ota_dtrim2b_0/x7/vdd" "nauta_ota_dtrim2b_0/x7/out" 2.84217e-14
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x7/out" 25.4402
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x7/vdd" 18.1601
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x7/in" 39.2538
+cap "nauta_ota_dtrim2b_0/x7/XM3/a_30_n100#" "ui_in[5]" 2.91992
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x7/sw_p" 2.82987
+cap "ua[3]" "nauta_ota_dtrim2b_0/x7/sw_p" 1.30225
+cap "ua[3]" "nauta_ota_dtrim2b_0/x5/in" 183.402
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x5/in" 158.634
+cap "nauta_ota_dtrim2b_0/x7/XM3/a_30_n100#" "ui_in[1]" 8.31468
+cap "nauta_ota_dtrim2b_0/x7/sw_n" "ui_in[1]" 128.974
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x5/out" 1.90732
+cap "ua[3]" "nauta_ota_dtrim2b_0/x5/out" 13.164
+cap "nauta_ota_dtrim2b_0/x7/sw_p" "ui_in[1]" 28.7809
+cap "nauta_ota_dtrim2b_0/x5/in" "ui_in[1]" 49.1019
+cap "nauta_ota_dtrim2b_0/x5/gnd" "ui_in[1]" 3.1211
+cap "nauta_ota_dtrim2b_0/x7/vdd" "ui_in[1]" 27.6307
+cap "ua[3]" "nauta_ota_dtrim2b_0/x7/sw_n" 2.66018
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x7/sw_n" 55.5163
+cap "nauta_ota_dtrim2b_0/x7/XM4/a_30_n50#" "ui_in[1]" 1.52122
+cap "nauta_ota_dtrim2b_0/x5/out" "ui_in[1]" 15.6575
+cap "nauta_ota_dtrim2b_0/x3/gnd" "ui_in[5]" 0.0576408
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x5/out" 3.12387
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x3/vdd" 0.298964
+cap "nauta_ota_dtrim2b_0/x3/gnd" "ua[3]" 1.39336
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x1/out" 0.1681
+cap "ua[3]" "nauta_ota_dtrim2b_0/x5/out" 100.156
+cap "ua[3]" "nauta_ota_dtrim2b_0/x3/vdd" 12.2688
+cap "ua[3]" "nauta_ota_dtrim2b_0/x1/out" 111.682
+cap "nauta_ota_dtrim2b_0/x1/XM2/w_n226_n1819#" "nauta_ota_dtrim2b_0/vdd" -2.84217e-14
+cap "nauta_ota_dtrim2b_0/in_p" "nauta_ota_dtrim2b_0/vdd" 13.0336
+cap "nauta_ota_dtrim2b_0/vdd" "nauta_ota_dtrim2b_0/x1/out" -4.54747e-13
+cap "nauta_ota_dtrim2b_0/in_p" "nauta_ota_dtrim2b_0/x1/XM2/w_n226_n1819#" 11.1988
+cap "nauta_ota_dtrim2b_0/x1/out" "nauta_ota_dtrim2b_0/in_p" 0.265527
+cap "nauta_ota_dtrim2b_0/vdd" "nauta_ota_dtrim2b_0/in_p" 14.7281
+cap "nauta_ota_dtrim2b_0/x3/gnd" "nauta_ota_dtrim2b_0/in_p" 3.14472
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/sw_n_A05" 3.6075
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x11/sw_p" 17.4682
+cap "nauta_ota_dtrim2b_0/x11/XM3/a_40_n100#" "ui_in[3]" 2.60938
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x11/vdd" 41.3523
+cap "nauta_ota_dtrim2b_0/x11/vdd" "nauta_ota_dtrim2b_0/x11/out" 0.70184
+cap "nauta_ota_dtrim2b_0/x7/vdd" "ui_in[7]" 64.2099
+cap "nauta_ota_dtrim2b_0/sw_n_A05" "ui_in[3]" 0.328225
+cap "nauta_ota_dtrim2b_0/x11/XM3/a_40_n100#" "ui_in[3]" 2.09798
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x11/sw_p" 7.10386
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/x7/vdd" 4.58942
+cap "nauta_ota_dtrim2b_0/x7/vdd" "nauta_ota_dtrim2b_0/x11/out" 2.26748
+cap "nauta_ota_dtrim2b_0/x7/vdd" "nauta_ota_dtrim2b_0/x11/sw_p" 10.914
+cap "nauta_ota_dtrim2b_0/sw_n_A05" "ui_in[7]" 141.398
+cap "nauta_ota_dtrim2b_0/x11/XM3/a_40_n100#" "ui_in[7]" 1.69327
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x11/sw_p" 63.2173
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x7/XM3/a_30_n100#" 1.03218
+cap "nauta_ota_dtrim2b_0/x7/sw_p" "ua[3]" 0.0600655
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/x7/sw_p" 0.168591
+cap "nauta_ota_dtrim2b_0/x7/vdd" "ui_in[5]" 11.0672
+cap "nauta_ota_dtrim2b_0/x7/sw_p" "ui_in[5]" 0.228721
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x7/vdd" 166.259
+cap "nauta_ota_dtrim2b_0/x7/vdd" "ua[3]" 5.29907
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/x7/vdd" 10.1861
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/x7/sw_p" 6.79356
+cap "nauta_ota_dtrim2b_0/x7/sw_n" "ua[3]" 12.8423
+cap "nauta_ota_dtrim2b_0/x7/XM3/a_30_n100#" "ui_in[1]" 1.3465
+cap "nauta_ota_dtrim2b_0/x7/sw_p" "ua[3]" 0.0520898
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/x5/vdd" 124.575
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x7/sw_n" 55.5163
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/x7/sw_n" 128.202
+cap "nauta_ota_dtrim2b_0/x7/sw_p" "ui_in[7]" 1.47894
+cap "nauta_ota_dtrim2b_0/x7/sw_p" "ui_in[5]" 0.113195
+cap "nauta_ota_dtrim2b_0/x7/sw_p" "ui_in[1]" 84.9096
+cap "ua[3]" "nauta_ota_dtrim2b_0/x5/out" 15.7517
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x5/out" 3.84363
+cap "nauta_ota_dtrim2b_0/x1/vdd" "ua[3]" 51.4097
+cap "nauta_ota_dtrim2b_0/x1/vdd" "ui_in[5]" 2.18416
+cap "nauta_ota_dtrim2b_0/x1/vdd" "ui_in[1]" 0.0418803
+cap "nauta_ota_dtrim2b_0/x1/out" "ua[3]" 27.6672
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x1/out" 0.392609
+cap "nauta_ota_dtrim2b_0/sw_n_A05" "ui_in[3]" 3.6075
+cap "nauta_ota_dtrim2b_0/sw_p_A05" "ui_in[3]" 15.1107
+cap "nauta_ota_dtrim2b_0/x11/vdd" "ui_in[3]" 15.1143
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/sw_n_A05" 141.398
+cap "nauta_ota_dtrim2b_0/x7/vdd" "ui_in[7]" 50.1372
+cap "ui_in[3]" "nauta_ota_dtrim2b_0/sw_p_A05" 6.79804
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/sw_n_A05" 0.614579
+cap "nauta_ota_dtrim2b_0/x7/vdd" "nauta_ota_dtrim2b_0/sw_p_A05" 22.4699
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/sw_p_A05" 62.1089
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/x7/vdd" 90.3767
+cap "nauta_ota_dtrim2b_0/sw_p_A1" "ui_in[7]" 5.41772
+cap "nauta_ota_dtrim2b_0/x7/vdd" "ua[3]" 5.34607
+cap "nauta_ota_dtrim2b_0/x7/vdd" "ui_in[7]" 232.13
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/sw_p_A1" 0.0277851
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/x7/vdd" 10.9315
+cap "nauta_ota_dtrim2b_0/sw_p_A1" "ui_in[1]" 111.463
+cap "nauta_ota_dtrim2b_0/sw_n_A1" "nauta_ota_dtrim2b_0/out_n" 12.8423
+cap "nauta_ota_dtrim2b_0/sw_n_A1" "ui_in[5]" 55.5163
+cap "nauta_ota_dtrim2b_0/sw_n_A1" "ui_in[1]" 128.215
+cap "nauta_ota_dtrim2b_0/x5/vdd" "ui_in[1]" 149.69
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/sw_p_A1" 1.48958
+cap "nauta_ota_dtrim2b_0/out_n" "nauta_ota_dtrim2b_0/vdd" 116.683
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/vdd" 0.163001
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/vdd" 6.64886
+cap "nauta_ota_dtrim2b_0/sw_n_A05" "ui_in[3]" 0.997217
+cap "nauta_ota_dtrim2b_0/vdd" "ui_in[3]" 72.5953
+cap "nauta_ota_dtrim2b_0/sw_p_A05" "ui_in[3]" 4.17703
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/sw_p_A05" 123.938
+cap "nauta_ota_dtrim2b_0/sw_n_A05" "ui_in[3]" 0.0269485
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/vdd" 215.22
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/sw_n_A05" 94.5228
+cap "nauta_ota_dtrim2b_0/sw_p_A05" "nauta_ota_dtrim2b_0/vdd" 27.3372
+cap "nauta_ota_dtrim2b_0/sw_p_A05" "nauta_ota_dtrim2b_0/sw_n_A05" -46.1652
+cap "nauta_ota_dtrim2b_0/sw_n_A05" "nauta_ota_dtrim2b_0/sw_p_A1" -3.34529
+cap "nauta_ota_dtrim2b_0/sw_n_A05" "nauta_ota_dtrim2b_0/vdd" 12.079
+cap "nauta_ota_dtrim2b_0/sw_p_A05" "ui_in[1]" -0.00316756
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/sw_n_A05" 6.95793
+cap "nauta_ota_dtrim2b_0/sw_p_A05" "ui_in[3]" 5.05713
+cap "nauta_ota_dtrim2b_0/sw_p_A1" "ui_in[1]" 23.1471
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/sw_p_A05" 1.86616
+cap "nauta_ota_dtrim2b_0/vdd" "ui_in[7]" 87.4252
+cap "nauta_ota_dtrim2b_0/sw_n_A1" "ui_in[1]" 14.4419
+cap "nauta_ota_dtrim2b_0/vdd" "nauta_ota_dtrim2b_0/sw_p_A1" 19.7951
+cap "nauta_ota_dtrim2b_0/vdd" "ui_in[5]" 0.234247
+cap "nauta_ota_dtrim2b_0/sw_n_A05" "nauta_ota_dtrim2b_0/sw_p_A1" -3.18806
+cap "ua[3]" "nauta_ota_dtrim2b_0/vdd" 0.114559
+cap "nauta_ota_dtrim2b_0/vdd" "ui_in[1]" 265.468
+cap "nauta_ota_dtrim2b_0/sw_n_A05" "ui_in[1]" 3.14698
+cap "nauta_ota_dtrim2b_0/sw_n_A1" "ui_in[5]" 57.1701
+cap "nauta_ota_dtrim2b_0/sw_p_A1" "ui_in[5]" 14.3736
+cap "nauta_ota_dtrim2b_0/sw_n_A1" "nauta_ota_dtrim2b_0/sw_p_A1" -57.0463
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/x5/vdd" 35.8824
+cap "nauta_ota_dtrim2b_0/x5/vdd" "nauta_ota_dtrim2b_0/out_n" 121.391
+cap "nauta_ota_dtrim2b_0/sw_p_A1" "nauta_ota_dtrim2b_0/sw_n_A05" -0.163399
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/sw_n_A1" 30.5544
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/sw_p_A1" 58.7933
+cap "nauta_ota_dtrim2b_0/sw_n_A1" "nauta_ota_dtrim2b_0/out_n" 10.7138
+cap "nauta_ota_dtrim2b_0/sw_p_A1" "nauta_ota_dtrim2b_0/out_n" 0.100389
+cap "ui_in[7]" "nauta_ota_dtrim2b_0/sw_p_A1" 0.629879
+cap "nauta_ota_dtrim2b_0/x5/vdd" "ui_in[5]" 191.94
+cap "nauta_ota_dtrim2b_0/sw_n_A1" "nauta_ota_dtrim2b_0/x5/vdd" 16.5585
+cap "nauta_ota_dtrim2b_0/x5/vdd" "nauta_ota_dtrim2b_0/sw_p_A1" 12.6363
+cap "ui_in[1]" "nauta_ota_dtrim2b_0/vdd" 0.00349288
+cap "nauta_ota_dtrim2b_0/out_n" "nauta_ota_dtrim2b_0/vdd" 323.278
+cap "ui_in[5]" "nauta_ota_dtrim2b_0/vdd" 0.142475
+cap "nauta_ota_dtrim2b_0/vdd" "nauta_ota_dtrim2b_0/out_n" 15.9922
+merge "nauta_ota_dtrim2b_0/sw_p_A05" "ui_in[2]" -281.243 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -48300 -880 0 0 0 0 0 0 0 0
+merge "nauta_ota_dtrim2b_0/x7/vdd" "nauta_ota_dtrim2b_0/x11/vdd" -5467.7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3533170 -15695 0 0 0 0 0 0 0 0 0 0
+merge "nauta_ota_dtrim2b_0/x11/vdd" "nauta_ota_dtrim2b_0/x8/vdd"
+merge "nauta_ota_dtrim2b_0/x8/vdd" "nauta_ota_dtrim2b_0/x12/vdd"
+merge "nauta_ota_dtrim2b_0/x12/vdd" "nauta_ota_dtrim2b_0/vdd"
+merge "nauta_ota_dtrim2b_0/vdd" "VDPWR"
+merge "nauta_ota_dtrim2b_0/VSUBS" "VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nauta_ota_dtrim2b_0/out_p" "ua[2]" -872.332 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -121500 -1440 -166500 -1640 0 0 0 0 0 0 0 0
+merge "ua[2]" "m1_25160_3970#"
+merge "nauta_ota_dtrim2b_0/sw_n_B05" "ui_in[7]" -4077.72 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -43200 -840 0 0 -3040337 -30017 0 0 0 0
+merge "nauta_ota_dtrim2b_0/x7/gnd" "nauta_ota_dtrim2b_0/x11/gnd" -711.319 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -211200 -2776 0 0 0 0 0 0 0 0 0 0
+merge "nauta_ota_dtrim2b_0/x11/gnd" "nauta_ota_dtrim2b_0/x8/gnd"
+merge "nauta_ota_dtrim2b_0/x8/gnd" "nauta_ota_dtrim2b_0/x12/gnd"
+merge "nauta_ota_dtrim2b_0/x12/gnd" "nauta_ota_dtrim2b_0/gnd"
+merge "nauta_ota_dtrim2b_0/gnd" "VGND"
+merge "nauta_ota_dtrim2b_0/sw_p_B1" "ui_in[1]" -3318.17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -59040 -972 0 0 -3468028 -29481 0 0 0 0
+merge "nauta_ota_dtrim2b_0/sw_p_A1" "ui_in[0]" -176.886 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -41400 -820 0 0 0 0 0 0 0 0
+merge "nauta_ota_dtrim2b_0/sw_p_B05" "ui_in[3]" -4359.56 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -45600 -880 0 0 -2714254 -28176 0 0 0 0
+merge "nauta_ota_dtrim2b_0/sw_n_A05" "ui_in[6]" -176.074 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -42000 -820 0 0 0 0 0 0 0 0
+merge "nauta_ota_dtrim2b_0/sw_n_B1" "ui_in[5]" -2211.58 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -74700 -1370 0 0 -3343849 -28221 0 0 0 0
+merge "nauta_ota_dtrim2b_0/sw_n_A1" "ui_in[4]" -182.039 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40000 -800 0 0 0 0 0 0 0 0
+merge "nauta_ota_dtrim2b_0/out_n" "ua[3]" -747.56 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -102300 -1280 0 0 0 0 0 0 0 0
+merge "nauta_ota_dtrim2b_0/in_n" "ua[1]" -545.183 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -77840 -1116 0 0 0 0 0 0 0 0 0 0
+merge "nauta_ota_dtrim2b_0/in_p" "ua[0]" -341.304 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -72280 -1076 0 0 0 0 0 0 0 0 0 0

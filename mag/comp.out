@@ -184,5 +184,152 @@ gnd                                        |gnd
 Cell pin lists are equivalent.
 Device classes nauta_ota_dtrim2b and nauta_ota_dtrim2b are equivalent.
 
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: clk
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: ena
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: rst_n
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: ua[4]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: ua[5]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: ua[6]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: ua[7]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: uio_in[0]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: uio_in[1]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: uio_in[2]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: uio_in[3]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: uio_in[4]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: uio_in[5]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: uio_in[6]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: uio_in[7]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: uio_oe[0]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: uio_oe[1]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: uio_oe[2]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: uio_oe[3]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: uio_oe[4]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: uio_oe[5]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: uio_oe[6]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: uio_oe[7]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: uo_out[1]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: uo_out[2]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: uo_out[3]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: uo_out[4]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: uo_out[5]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: uo_out[6]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: uo_out[7]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: uio_out[0]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: uio_out[1]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: uio_out[2]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: uio_out[3]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: uio_out[4]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: uio_out[5]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: uio_out[6]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: uio_out[7]
+Cell tt_um_nurirfansyah_nauta (0) disconnected node: uo_out[0]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: clk
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: ena
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: rst_n
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: ua[4]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: ua[5]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: ua[6]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: ua[7]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: uio_in[0]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: uio_in[1]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: uio_in[2]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: uio_in[3]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: uio_in[4]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: uio_in[5]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: uio_in[6]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: uio_in[7]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: uio_oe[0]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: uio_oe[1]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: uio_oe[2]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: uio_oe[3]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: uio_oe[4]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: uio_oe[5]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: uio_oe[6]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: uio_oe[7]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: uio_out[0]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: uio_out[1]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: uio_out[2]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: uio_out[3]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: uio_out[4]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: uio_out[5]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: uio_out[6]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: uio_out[7]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: uo_out[0]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: uo_out[1]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: uo_out[2]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: uo_out[3]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: uo_out[4]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: uo_out[5]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: uo_out[6]
+Cell tt_um_sky25a_nurirfansyah_nauta (1) disconnected node: uo_out[7]
+Subcircuit summary:
+Circuit 1: tt_um_nurirfansyah_nauta        |Circuit 2: tt_um_sky25a_nurirfansyah_nauta 
+-------------------------------------------|-------------------------------------------
+nauta_ota_dtrim2b (1)                      |nauta_ota_dtrim2b (1)                      
+Number of devices: 1                       |Number of devices: 1                       
+Number of nets: 14                         |Number of nets: 14                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: tt_um_nurirfansyah_nauta        |Circuit 2: tt_um_sky25a_nurirfansyah_nauta 
+-------------------------------------------|-------------------------------------------
+ua[3]                                      |ua[3]                                      
+ua[0]                                      |ua[0]                                      
+ua[2]                                      |ua[2]                                      
+ua[1]                                      |ua[1]                                      
+ui_in[0]                                   |ui_in[0]                                   
+ui_in[1]                                   |ui_in[1]                                   
+ui_in[2]                                   |ui_in[2]                                   
+ui_in[3]                                   |ui_in[3]                                   
+ui_in[4]                                   |ui_in[4]                                   
+ui_in[5]                                   |ui_in[5]                                   
+ui_in[6]                                   |ui_in[6]                                   
+ui_in[7]                                   |ui_in[7]                                   
+VGND                                       |VGND                                       
+VDPWR                                      |VDPWR                                      
+clk                                        |clk                                        
+ena                                        |ena                                        
+rst_n                                      |rst_n                                      
+ua[4]                                      |ua[4]                                      
+ua[5]                                      |ua[5]                                      
+ua[6]                                      |ua[6]                                      
+ua[7]                                      |ua[7]                                      
+uio_in[0]                                  |uio_in[0]                                  
+uio_in[1]                                  |uio_in[1]                                  
+uio_in[2]                                  |uio_in[2]                                  
+uio_in[3]                                  |uio_in[3]                                  
+uio_in[4]                                  |uio_in[4]                                  
+uio_in[5]                                  |uio_in[5]                                  
+uio_in[6]                                  |uio_in[6]                                  
+uio_in[7]                                  |uio_in[7]                                  
+uio_oe[0]                                  |uio_oe[0]                                  
+uio_oe[1]                                  |uio_oe[1]                                  
+uio_oe[2]                                  |uio_oe[2]                                  
+uio_oe[3]                                  |uio_oe[3]                                  
+uio_oe[4]                                  |uio_oe[4]                                  
+uio_oe[5]                                  |uio_oe[5]                                  
+uio_oe[6]                                  |uio_oe[6]                                  
+uio_oe[7]                                  |uio_oe[7]                                  
+uo_out[1]                                  |uo_out[1]                                  
+uo_out[2]                                  |uo_out[2]                                  
+uo_out[3]                                  |uo_out[3]                                  
+uo_out[4]                                  |uo_out[4]                                  
+uo_out[5]                                  |uo_out[5]                                  
+uo_out[6]                                  |uo_out[6]                                  
+uo_out[7]                                  |uo_out[7]                                  
+uio_out[0]                                 |uio_out[0]                                 
+uio_out[1]                                 |uio_out[1]                                 
+uio_out[2]                                 |uio_out[2]                                 
+uio_out[3]                                 |uio_out[3]                                 
+uio_out[4]                                 |uio_out[4]                                 
+uio_out[5]                                 |uio_out[5]                                 
+uio_out[6]                                 |uio_out[6]                                 
+uio_out[7]                                 |uio_out[7]                                 
+uo_out[0]                                  |uo_out[0]                                  
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes tt_um_nurirfansyah_nauta and tt_um_sky25a_nurirfansyah_nauta are equivalent.
+
 Final result: Circuits match uniquely.
 .
