@@ -49,8 +49,8 @@ N -290 -190 60 -190 {lab=#net3}
 C {vsource.sym} -410 0 0 0 {name=V1 value=1.8 savecurrent=false}
 C {vsource.sym} -40 0 0 0 {name=V2 value=0.9 savecurrent=false}
 C {gnd.sym} -80 70 0 0 {name=l1 lab=GND}
-C {vsource.sym} 20 -80 0 0 {name=V3 value="dc 0 ac 0.5" savecurrent=false}
-C {vsource.sym} 20 0 0 0 {name=V4 value="dc 0 ac 0.5" savecurrent=false}
+C {vsource.sym} 20 -80 0 0 {name=V3 value="dc 0 ac 0.9" savecurrent=false}
+C {vsource.sym} 20 0 0 0 {name=V4 value="dc 0 ac 0.9" savecurrent=false}
 C {sky130_fd_pr/corner.sym} 470 -330 0 0 {name=CORNER only_toplevel=false corner=fs}
 C {code_shown.sym} 700 -320 0 0 {name=s1 only_toplevel=false value=
 ".options klu

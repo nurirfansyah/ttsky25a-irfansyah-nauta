@@ -3,7 +3,7 @@ project:
   title:        "Nauta OTA with digital trimming"      # Project title
   author:       "Astria Nur Irfansyah"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "Simple Nauta OTA with digital trimming"      # One line description of what your project does
+  description:  "Simple Nauta OTA with 2-bit digital trimming"      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -25,14 +25,14 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "sw_p_A1"
+  ui[1]: "sw_p_B1"
+  ui[2]: "sw_p_A05"
+  ui[3]: "sw_p_B05"
+  ui[4]: "sw_n_A1"
+  ui[5]: "sw_n_B1"
+  ui[6]: "sw_n_A05"
+  ui[7]: "sw_n_B05"
 
   # Outputs
   uo[0]: ""
@@ -57,8 +57,8 @@ pinout:
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
   ua[0]: "in_p"
   ua[1]: "in_n"
-  ua[2]: "out_p"
-  ua[3]: "out_n"
+  ua[2]: "out_n"
+  ua[3]: "out_p"
   ua[4]: ""
   ua[5]: ""
 
