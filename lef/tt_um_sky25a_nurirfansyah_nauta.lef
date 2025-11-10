@@ -434,7 +434,7 @@ MACRO tt_um_sky25a_nurirfansyah_nauta
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2.700 5.000 3.000 220.760 ;
+        RECT 1.000 5.000 3.000 220.760 ;
     END
   END VDPWR
   PIN VGND
@@ -1235,7 +1235,6 @@ MACRO tt_um_sky25a_nurirfansyah_nauta
       LAYER met4 ;
         RECT 121.600 224.760 121.750 224.795 ;
         RECT 122.050 224.760 122.250 224.795 ;
-        RECT 1.000 5.000 2.700 220.760 ;
         RECT 100.550 215.300 101.800 216.450 ;
         RECT 3.700 55.700 4.000 61.700 ;
         RECT 6.000 55.700 6.700 61.700 ;
